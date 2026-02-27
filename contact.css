@@ -1,0 +1,105 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color: #ffd400;
+  color:#222;
+}
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 60px;
+  background:#ffd400;
+  position:relative;
+}
+
+.logo{font-size:24px;font-weight:bold;color:#000;}
+.logo span{color:#222;}
+
+.nav-links{
+  list-style:none;
+  display:flex;
+  gap:40px;
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:#000;
+  font-weight:500;
+  transition:.3s;
+}
+.nav-links a:hover{color:#ffd400;}
+
+.nav-buttons button{
+  padding:8px 16px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:500;
+}
+
+.signin{background:#222;color:#ffd400;margin-right:10px;}
+.signup{background:#000;color:#fff;}
+
+.contact-section{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:80px;
+}
+.contact-left{width:50%;}
+.contact-left h1{font-size:50px;color:#222;margin-bottom:10px;}
+.contact-left p{margin-bottom:30px;}
+
+form{
+ background-color: #222222;
+  padding:30px;
+  border-radius:15px;
+  }
+
+form input,
+form textarea{
+  width:100%;
+  padding:15px;
+  margin-bottom:15px;
+  border:2px solid #222;
+  border-radius:8px;
+  background:#ffd400;
+  color:#000;
+  font-weight: 500;
+}
+
+form textarea{height:120px;resize:none;}
+form button{
+  width:100%;
+  padding:15px;
+  background:#ffd400;
+  border:none;
+  border-radius:8px;
+  font-weight:bold;
+  cursor:pointer;
+}
+form button:hover{background:#e6be00;}
+
+.contact-right{
+  width:40%;
+  display:flex;
+  justify-content:center;
+}
+.image-circle{
+  width:320px;
+  height:320px;
+  border-radius:50%;
+  padding:8px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
