@@ -9,12 +9,14 @@ html {
 }
 
 .btn-container {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 4rem;
 
     button {
-        border: none;
-        padding: 1rem;
-        border-radius: 1rem;
+        border: groove;
+        font-size: 2rem;
+        margin: 1rem;
+        padding: 1.3rem;
+        border-radius: 3rem;
         background-color: #222;
         color: #FFD400;
     }
@@ -25,17 +27,22 @@ header {
         background-color: #FFD400;
         max-width: 100vw;
         min-height: 15vh;
-        font-size: 1.5rem;
+        font-size: 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10rem;
+        border: 0.2rem groove;
 
 
         .logo {
-            color: #222;
-            font-size: 2rem;
-            font-weight: 900;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 0.2rem groove #ffffff;
+            object-fit: cover;
+            overflow: hidden;
+
         }
 
         ul {
@@ -48,7 +55,10 @@ header {
                 a {
                     text-decoration: none;
                     color: #222;
-                    font-weight: 900;
+                    border: 0.2rem dashed;
+                    padding: 1rem;
+                    font-weight: 1000;
+                    
                 }
             }
         }
@@ -66,6 +76,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 10rem;
+    border: 0.2rem groove;
 
     .left {
         display: flex;
@@ -82,25 +93,30 @@ main {
         }
 
         p {
-            font-size: 1.5rem;
+            font-size: 1.8rem;
+            font-weight: 600;
             max-width: 40rem;
             word-spacing: 0.4rem;
             line-height: 2rem;
             margin-bottom: 2rem;
+            border: 0.2rem dashed;
+            padding: 2rem;
+        
         }
 
     }
 
     .right {
         .dashed-bg{
-            border: 0.2rem dashed #222;
+            border: 0.2rem dashed #ffffff;
+            box-shadow: 30px 20px 15px rgba(59, 56, 56, 0.5);
             border-radius: 50%;
-            padding: 0.7rem;
+            padding: 0.8rem;
 
             .img-bg{
               background-color: #222;
               border-radius: 50%; 
-              transform: scaleX(-1);
+              transform: scaleX(1);
             }
         }
     }
