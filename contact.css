@@ -101,6 +101,5 @@ form button:hover{background:#e6be00;}
   display:flex;
   align-items:center;
   justify-content:center;
-   transform: scaleX(-1);
 }
 
